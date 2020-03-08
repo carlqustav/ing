@@ -1,0 +1,59 @@
+
+@media only screen and (max-width: 768px) {
+    a.navbar-brand span{
+        display: none;
+    }
+    button.update {
+        display: inline;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    #mobile-title{
+        display: none;
+    }
+    button.update {
+        display: none;
+    }
+}
+
+tr, td{
+    box-sizing: content-box;
+}
+
+.update {
+    display: none;
+    font-size: xx-small;
+    padding: 0.7em auto;
+}
+
+#mobile-title{
+    text-align: center;
+}
+
+button.navbar-toggler{
+    background-color: #FF6600;
+}
+
+#mobile-title h4{
+    padding: 0.5em 0;
+    border: 1px solid #FF6600;
+    border-radius: 50px;
+    background-color: rgb(247, 247, 247);
+}
+
+a.navbar-brand{
+    margin-left: 3em;
+    display: flex;
+    text-decoration: none;
+}
+
+a.navbar-brand span{
+    margin: 0.4em 0 0 0.4em;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+li{
+    list-style-type: none;
+}
