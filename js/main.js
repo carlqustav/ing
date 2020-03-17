@@ -1,4 +1,5 @@
 const defaultMinWindowWidth = 768;
+const navbardefaultMinWindowWidth = 1200;
 
 $(function() {
     $(window).resize(function(){
@@ -24,12 +25,4 @@ $(function() {
         findJob($(this).parent().children().eq(3).html());
         $(this).parent().parent().hide();
     });
-
-    function findJob(jobCode){
-        jobs.forEach(function(job){
-                if(job["İş Kodu"] == jobCode){
-                    job["Durum"] = true;
-            }
-        });     
-    }
 });
